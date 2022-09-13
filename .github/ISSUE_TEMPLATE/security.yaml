@@ -15,6 +15,9 @@ body:
     attributes:
       label: Documentation
       description: Any links to a set of best practices, or relevant documentation as to why you submit this report.
+      placeholder: |
+        - https://example.com/1
+        - https://example.com/2
   - type: textarea
     id: logs
     attributes:
