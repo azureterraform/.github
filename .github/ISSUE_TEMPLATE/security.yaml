@@ -1,0 +1,23 @@
+name: Security Concern
+description: Form used to send in a report if you have any security concerns.
+title: "[Security]: "
+labels: ["security"]
+body:
+  - type: textarea
+    id: concern
+    attributes:
+      label: Your concern
+      placeholder: Please share your concern with us, in as much detail as possible.
+    validations:
+      required: true
+  - type: textarea
+    id: docs
+    attributes:
+      label: Documentation
+      description: Any links to a set of best practices, or relevant documentation as to why you submit this report.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: Shell
